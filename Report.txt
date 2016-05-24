@@ -5,6 +5,7 @@ Problem Statement:
 
 Logic: Tree is an acyclic connected graph.
 
+
 Input: Graph is inputed as an adjacency list in the following format. Firstline
 contains the number of nodes in the graph. Input is read from an input file.
 
@@ -29,4 +30,7 @@ Parallel Running Time     : 0.0000975132 Seconds
 
 Detailed Logic Explanation:
 
-[ Naveen Please fill yor Logic here ]
+Logic is to remove leaf nodes iteratively till no more nodes can be deleted. If given 
+graph is a tree then all the nodes will be deleted otherwise some nodes will remain. I 
+will check if all the nodes are visited and non can be removed then there is cycle and 
+graph is not a tree otherwise it is tree.
